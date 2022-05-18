@@ -4,8 +4,8 @@ Quick starting point for a respectable Python project.
 ## Roadmap
 - [x] Package management
 - [x] Directory structure
-- [ ] Code formatting
-- [ ] Code linting
+- [x] Code formatting
+- [x] Code linting
 - [ ] Commit hooks
 - [ ] Configuration
 - [ ] Testing
@@ -29,10 +29,17 @@ Quick starting point for a respectable Python project.
 
 ### Run the tests
 
+### Run the linters
+
+```shell
+./lint.sh
+```
+
 
 ## What's inside?
 - Package management using [pipenv].
-
+- Code formatting using [Black](https://black.readthedocs.io).
+- Code linting using [Flake8](https://flake8.pycqa.org).
 
 [pyenv]: https://github.com/pyenv/pyenv
 [pipenv]: https://pipenv.pypa.io/en/latest/
