@@ -2,8 +2,9 @@ import asyncio
 
 
 async def main():
-    print('Hello')
+    print("Hello")
     await asyncio.sleep(1)
-    print('World')
+    print("World")
+
 
 asyncio.run(main())
