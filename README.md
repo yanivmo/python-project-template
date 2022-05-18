@@ -3,18 +3,28 @@ Quick starting point for a respectable Python project.
 
 ## Roadmap
 - [x] Package management
-- [ ] Directory structure
+- [x] Directory structure
 - [ ] Code formatting
 - [ ] Code linting
+- [ ] Commit hooks
+- [ ] Configuration
 - [ ] Testing
 - [ ] Structured logging
-- [ ] Minimal asio entrypoint
+- [x] Minimal asyncio entrypoint
+- [ ] GitHub Actions
 - [ ] Usage guide
 
 ## Quick start
+
+### Setup
 1. Use [pyenv] to install and activate the latest Python 3.10.
 2. Install [pipenv]: `pip install --user pipenv`
 3. In the repository root execute `pipenv install`
+
+### Run the app
+
+### Run the tests
+
 
 ## What's inside?
 - Package management using [pipenv].
