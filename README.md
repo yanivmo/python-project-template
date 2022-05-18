@@ -23,6 +23,10 @@ Quick starting point for a respectable Python project.
 
 ### Run the app
 
+```shell
+./run.sh
+```
+
 ### Run the tests
 
 
