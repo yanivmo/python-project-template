@@ -1,10 +1,11 @@
 import asyncio
+from .hello_world import get_hello, get_world
 
 
 async def main():
-    print("Hello")
+    print(get_hello())
     await asyncio.sleep(1)
-    print("World")
+    print(get_world())
 
 
 asyncio.run(main())

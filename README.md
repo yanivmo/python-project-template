@@ -8,7 +8,7 @@ Quick starting point for a respectable Python project.
 - [x] Code linting
 - [ ] Commit hooks
 - [ ] Configuration
-- [ ] Testing
+- [x] Testing
 - [ ] Structured logging
 - [x] Minimal asyncio entrypoint
 - [ ] GitHub Actions
@@ -19,7 +19,7 @@ Quick starting point for a respectable Python project.
 ### Setup
 1. Use [pyenv] to install and activate the latest Python 3.10.
 2. Install [pipenv]: `pip install --user pipenv`
-3. In the repository root execute `pipenv install`
+3. In the repository root execute `pipenv install --dev`
 
 ### Run the app
 
@@ -28,6 +28,9 @@ Quick starting point for a respectable Python project.
 ```
 
 ### Run the tests
+```shell
+./test.sh
+```
 
 ### Run the linters
 
@@ -40,6 +43,7 @@ Quick starting point for a respectable Python project.
 - Package management using [pipenv].
 - Code formatting using [Black](https://black.readthedocs.io).
 - Code linting using [Flake8](https://flake8.pycqa.org).
+- Testing using [pytest](https://docs.pytest.org).
 
 [pyenv]: https://github.com/pyenv/pyenv
 [pipenv]: https://pipenv.pypa.io/en/latest/
