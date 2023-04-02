@@ -18,9 +18,9 @@ Quick starting point for a respectable Python project.
 
 ### Setup
 
-1. Use [poetry] to install and activate the latest Python 3.10.
+1. Use [pyenv] to install and activate the latest Python 3.10.
 2. Install [poetry]: `pipx install poetry` (for other options consult the documentation).
-3. In the repository root execute `poetry install`
+3. In the repository root execute `poetry env use 3.10 && poetry install`
 
 ### Run the app
 
