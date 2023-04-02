@@ -1,10 +1,20 @@
 #
-# This confuguration is written in TOML.
-# More here: https://toml.io/en/v1.0.0
+# This confuguration is written in TOML and used by Dynaconf
+#
+# More on TOML syntax here: https://toml.io/en/v1.0.0
+# More on configuration here: https://www.dynaconf.com/
 #
 [default]
 prompt = { hello = "Shalom", world = "Olam" }
 
+# Render all messages of this level or higher
+log.level = "INFO"
+
+# By default the logs are rendered as JSON when not running in an interactive
+# session. Setting this flag to true will force JSON output in all cases.
+log.force_json = false
+
 [testing]
 prompt.hello = "Hello"
 prompt.world = "World"
+
