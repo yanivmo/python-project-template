@@ -7,7 +7,7 @@ Quick starting point for a respectable Python project.
 - [x] Code formatting
 - [x] Code linting
 - [ ] Commit hooks
-- [ ] Configuration
+- [x] Settings management
 - [x] Testing
 - [ ] Structured logging
 - [x] Minimal asyncio entrypoint
@@ -40,6 +40,7 @@ Quick starting point for a respectable Python project.
 
 ## What's inside?
 - Package management using either [poetry] or [pipenv].
+- Settings management using [dynaconf]. 
 - Code formatting using [Black](https://black.readthedocs.io).
 - Code linting using [Flake8](https://flake8.pycqa.org).
 - Testing using [pytest](https://docs.pytest.org).
@@ -47,3 +48,4 @@ Quick starting point for a respectable Python project.
 [pyenv]: https://github.com/pyenv/pyenv
 [pipenv]: https://pipenv.pypa.io/en/latest/
 [poetry]: https://python-poetry.org/
+[dynaconf]: https://www.dynaconf.com/

@@ -6,4 +6,4 @@ def test_hello():
 
 
 def test_world():
-    assert get_world() == "World"
+    assert get_world() == "World!!!"

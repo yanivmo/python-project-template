@@ -1,0 +1,10 @@
+#
+# This confuguration is written in TOML.
+# More here: https://toml.io/en/v1.0.0
+#
+[default]
+prompt = { hello = "Shalom", world = "Olam" }
+
+[testing]
+prompt.hello = "Hello"
+prompt.world = "World"

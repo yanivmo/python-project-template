@@ -130,3 +130,6 @@ dmypy.json
 
 # JetBrains IDE settings
 .idea/
+
+# Ignore dynaconf secret files
+.secrets.*

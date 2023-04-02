@@ -1,6 +1,9 @@
+from .config import settings
+
+
 def get_hello():
-    return "Hello"
+    return settings.prompt.hello
 
 
 def get_world():
-    return "World"
+    return settings.prompt.world
