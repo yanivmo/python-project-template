@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 echo "Running Black"
-pipenv run black .
+poetry run black .
 
 echo "\nRunning flake8"
-pipenv run flake8 . && echo "Done."
+poetry run flake8 . && echo "Done."

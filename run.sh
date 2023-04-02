@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-pipenv run python -m newproject
+poetry run python -m newproject

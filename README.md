@@ -11,15 +11,14 @@ Quick starting point for a respectable Python project.
 - [x] Testing
 - [ ] Structured logging
 - [x] Minimal asyncio entrypoint
-- [ ] GitHub Actions
 - [ ] Usage guide
 
 ## Quick start
 
 ### Setup
-1. Use [pyenv] to install and activate the latest Python 3.10.
-2. Install [pipenv]: `pip install --user pipenv`
-3. In the repository root execute `pipenv install --dev`
+1. Use [poetry] to install and activate the latest Python 3.10.
+2. Install [poetry]: `pipx install poetry` (for other options consult the documentation).
+3. In the repository root execute `poetry install`
 
 ### Run the app
 
@@ -40,10 +39,11 @@ Quick starting point for a respectable Python project.
 
 
 ## What's inside?
-- Package management using [pipenv].
+- Package management using either [poetry] or [pipenv].
 - Code formatting using [Black](https://black.readthedocs.io).
 - Code linting using [Flake8](https://flake8.pycqa.org).
 - Testing using [pytest](https://docs.pytest.org).
 
 [pyenv]: https://github.com/pyenv/pyenv
 [pipenv]: https://pipenv.pypa.io/en/latest/
+[poetry]: https://python-poetry.org/

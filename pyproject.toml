@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "newproject"
+version = "0.1.0"
+description = "Quick starting point for a respectable Python project"
+authors = ["yanivmo <yanivmo@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+flake8 = "*"
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
