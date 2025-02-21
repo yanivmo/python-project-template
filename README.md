@@ -44,7 +44,7 @@ Quick starting point for a respectable Python project.
 
 - Package management using either [poetry] or [pipenv].
 - Settings management using [dynaconf].
-- Structured logging using [structlog].
+- Structured logging using [loguru](https://loguru.readthedocs.io).
 - Code formatting using [Black](https://black.readthedocs.io).
 - Code linting using [Flake8](https://flake8.pycqa.org).
 - Testing using [pytest](https://docs.pytest.org).
@@ -56,5 +56,3 @@ Quick starting point for a respectable Python project.
 [poetry]: https://python-poetry.org/
 
 [dynaconf]: https://www.dynaconf.com/
-
-[structlog]: https://www.structlog.org

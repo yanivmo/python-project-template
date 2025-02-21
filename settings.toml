@@ -17,4 +17,3 @@ log.force_json = false
 [testing]
 prompt.hello = "Hello"
 prompt.world = "World"
-
